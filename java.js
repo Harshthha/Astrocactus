@@ -25,7 +25,7 @@ function validcheck(){
     var isPasswordEqual = document.getElementById("pass1").value===document.getElementById("pass2").value;
     var isNotEmptyusername = document.getElementById("Username").value!=='';
     var isNotEmptyemail = document.getElementById("email").value!=='';
-    if(!(isNotEmptyPassword && isPasswordEqual && isNotEmptyusername && isNotEmptyemail && isValidEmail)){
+    if(!(isNotEmptyPassword && isPasswordEqual && isNotEmptyusername && isNotEmptyemail )){
         window.alert("invavaild credential");
     }
     return isNotEmptyPassword && isPasswordEqual && isNotEmptyusername && isNotEmptyemail && isValidEmail;

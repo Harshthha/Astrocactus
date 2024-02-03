@@ -25,19 +25,25 @@ function validcheck(){
     var isPasswordEqual = document.getElementById("pass1").value===document.getElementById("pass2").value;
     var isNotEmptyusername = document.getElementById("Username").value!=='';
     var isNotEmptyemail = document.getElementById("email").value!=='';
-    if(!(isNotEmptyPassword && isPasswordEqual && isNotEmptyusername && isNotEmptyemail )){
+    if(!(isNotEmptyPassword && isPasswordEqual && isNotEmptyusername && isNotEmptyemail && isValidEmail )){
         window.alert("invavaild credential");
     }
     return isNotEmptyPassword && isPasswordEqual && isNotEmptyusername && isNotEmptyemail && isValidEmail;
 
 }
 
-function validcheck1(){
-    var isNotEmptyusername = document.getElementById("uname").value!=='';
-    var isNotEmptyPassword = document.getElementById("pass0").value!==""&&(/^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/.test(document.getElementById("pass0").value));
-    if(!(isNotEmptyPassword && isNotEmptyusername)){
-        window.alert("invavaild credential");
-    }
-    return isNotEmptyPassword && isNotEmptyusername;
+function validcheck1() {
+    const usernameInput = document.getElementById("uname");
+    const passwordInput = document.getElementById("pass0");
 
+    const isNotEmptyUsername = usernameInput.value !== '';
+    const isNotEmptyPassword = passwordInput.value !== "" && /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/.test(passwordInput.value);
+
+    if (!(isNotEmptyPassword && isNotEmptyUsername)) {
+        window.alert("Invalid credentials for sign-in. Please check your username and password.");
+        return false;
+    }
+
+    return true;
 }
+

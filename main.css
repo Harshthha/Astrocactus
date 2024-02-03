@@ -1,0 +1,201 @@
+
+   .spin {
+      animation: spin 8s linear infinite;
+      margin-top: 30px;
+      right: -20px;
+      align-items: center;
+      margin: 100px;
+      right: -130px;
+    }
+    
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  
+   
+    body {
+     background-image: url('images/hhhh.jpg');
+      background-attachment: fixed;
+      background-size: cover;
+      align-items: center;
+      justify-content: center;
+       display: flex;
+    }
+  
+      /* ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+       color:rgba(0, 0, 0, 0.998) ;
+        background-color:#faf9f9;opacity: 0.2;
+        text-align: right;
+        font-size: large;
+      }
+      
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: rgba(0, 0, 0, 0.998);
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+     
+      
+      li a:hover {
+        background-color: #080808;
+        color: rgb(253, 253, 253);
+        border: solid rgb(255, 255, 255) 1px;
+      } */
+     .x
+     {
+
+      display: block;
+                  color:rgba(7, 7, 7, 0.998);
+                  text-align: center;
+                  padding: 1px;
+                  text-decoration: none;
+                  font-size: xx-large;
+                  float: right;
+                  font-style: italic;
+                  
+                  font-family:satisfy;
+     }
+     .p 
+     {
+      color:rgba(0, 0, 0, 0.998);font-family:b'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:300%;text-align: left;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color:rgba(251, 251, 251, 0.998);
+      font-size: large;
+
+     }
+     
+     .pa
+     {
+      font-size: large;
+      font-family:"Times New Roman', Times, serif";
+      font-size: xx-large ;
+      font-style: italic;
+      font-weight: 200;
+      color: #ece0e0;
+     }
+     .mm
+     {
+      font-family:Verdana, sans-serif;
+      color: #ece0e0;
+     }
+     .image
+     {
+        background-color:#c7c9cc;
+        opacity: 0.7;
+        border-radius: 60%;
+        height: 150;
+        width: 150;
+     }
+     .k
+     {
+      color: rgb(18, 19, 19);
+      font-size: large;
+      background-color:#c7c9cc;
+      
+      margin-left: 300px;
+      margin-right: 300px;
+      border-radius: 0.50%;
+      font-family: Georgia, serif;
+      padding-left: 10px;
+      padding-bottom: 10px;
+      padding-right: 10px;
+      
+  
+     }
+     h3
+     {
+      font-size: xx-large;
+     }
+     @import 'https://fonts.googleapis.com/css?family=Raleway';
+/* Pull up  */
+div.pullUp a:before
+{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    bottom: 0px;
+    content: '';
+    background: #FFF;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+div.pullUp a:hover:before
+{
+    height: 100%;
+}
+div.container
+{
+    font-family: Raleway;
+    margin: 0 auto;
+
+	
+}
+
+div.container a
+{
+    color: azure;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    
+    cursor: pointer;
+}
+li{
+  float: left;
+  text-decoration: none;
+  list-style: none;
+  
+}
+ul
+{
+  margin: auto;
+  top: 100px;
+  margin-left: 400px;
+  margin-top: 14px;
+}
+
+h1 {
+  color: #f4f1f1;
+}
+
+.fortune {
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color:#c7c9cc;
+  opacity: 0.7;
+  color:black;
+  text-decoration: none;
+  border-radius: 5px;
+}

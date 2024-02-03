@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Signin/Signup</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css"></head>
+    <body>
+        <div class="c">
+            <div class="signin_signup">
+                <form class="sign_in_form" onSubmit="return validcheck1()" action="home.html">
+                    <h2 class="title">Sign in</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user la"> </i>
+                        <input class="ut" type="text" placeholder="Username" id="uname">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock la"> </i>
+                        <input class="ut" type="password" placeholder="password" id="pass0">
+                    </div>
+                    <input type="submit" value="Login" class="btn">
+                    <p class="social_text">Or sign in with social platform </p>
+                    <div class="social_media">
+                        <a href="" class="social_icon">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="" class="social_icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="social_icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="" class="social_icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <p class="account_text">Don't have an account ? <a href="#" id="sign_up_btn2">Sign up</a></p>
+
+                </form>
+                <form class="sign_up_form" onSubmit="return validcheck()" action="home.html">
+                    <h2 class="title">Sign up</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user la"> </i>
+                        <input class="ut" type="text" placeholder="Username" id="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-envelope la"></i>
+                        <input type="text" placeholder="Email" class="ut" id="email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock la"> </i>
+                        <input class="ut" type="password" id="pass1" placeholder="password">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock la"> </i>
+                        <input class="ut" type="password" id="pass2" placeholder="confirm password">
+                    </div>
+                    <input type="submit" value="Sign up" class="btn">
+                    <p class="social_text">Or sign in with social platform </p>
+                    <div class="social_media">
+                        <a href="" class="social_icon">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="" class="social_icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="social_icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="" class="social_icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <p class="account_text">Already have an account ? <a href="#" id="sign_in_btn2">Sign in</a></p>
+                </form>
+                
+            </div>
+            <div class="panel_container">
+                <div class="panel left_panel">
+                    <div class="content">
+                        <h3>Member of Brand?</h3>
+                        <p>"The heavens themselves blaze forth the death of princes." - William Shakespeare<br>"Astrology is a science in itself and contains an illuminating body of knowledge. It taught me many things and I am greatly indebted to it." - Albert Einstein </p>
+                        <button class="btn" id="sign_in_btn">Sign in</button>
+                    </div>
+                    
+                </div>
+                <div class="panel right_panel">
+                    <div class="content">
+                        <h3>New to Brand?</h3>
+                        <p>"Astrology reveals the will of the gods." - Plato<br>"The signs of the zodiac are karmic patterns; the planets are the looms; the will is the weaver." - Liz Greene</p>
+                        <button class="btn" id="sign_up_btn">Sign up</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <script src="java.js"></script>
+    </body>
+</html>

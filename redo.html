@@ -1,0 +1,142 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Frames Illustrated</title>
+            <link rel="stylesheet" href="shop.css">
+            <script src="script.js"></script>
+        </head>
+        
+        <body>
+        <header>
+            <div class="container pullUp" >
+                <ul>
+                 <li><a  href="home.html">Home</a></li>
+                    <li><a href="main.html">Explore</a></li>
+                    <li><a href="index.html">Login</a></li>
+                    <li><a href="redo.html">Shop</a></li>
+                  </ul></b>
+              </div>
+            <h3 style="text-align: right;">My Cart [<span id="cartcount">0</span>]</h3>
+            <h3 style="text-align: right;">Total: $<span id="total">0</span></h3>
+            <button onclick="proceedtopayment()" style="text-align: right;margin-left: 1110px;">Proceed to payment</button>
+            </header>
+        <h2 class="title" style="font-size: 50px; font-family:'Times New Roman', Times, serif;">SHOP</h2>
+        <div class="categories">
+            
+            <div class="scontainer">
+                <div class="row">
+                    <div class="c3">
+                        <img src = "product1.png">
+                        <h3>Past Life Oracle Reading</h3>
+                       <p>$<span id="price1">12</span></p>
+                        <button class="add-to-cart-btn" onclick="increment();freq(1)" data-product-id="1">Add to Cart</button>
+                        <span id="frequency1">0</span> times added
+                    </div>
+            
+                    <div class="c3">
+                        <img src = "product2.png">
+                        <h3>2023 Tarot Reading</h3>
+                        <p>$<span id="price2">21</span></p>
+                        <button class="add-to-cart-btn" onclick="increment();freq(2)" data-product-id="2">Add to Cart</button>
+                        <span id="frequency2">0</span> times added
+                    </div>
+                
+                    <div class="c3">
+                        <img src = "product3.png">
+                        <h3>2023 Vedic Horoscope</h3>
+                        <p>$<span id="price3">24</span></p>
+                        <button class="add-to-cart-btn" onclick="increment();freq(3)" data-product-id="3">Add to Cart</button>
+                        <span id="frequency3">0</span> times added
+                    </div>
+                </div>
+            </div>
+
+            <div class="scontainer">
+                <div class="row">
+                    <div class="c3">
+                        <img src = "product4.png">
+                        <h3>2023 Premium Horoscope</h3>
+                        <p>$<span id="price4">31</span></p>
+                        <button class="add-to-cart-btn" onclick="increment();freq(4)" data-product-id="4">Add to Cart</button>
+                        <span id="frequency4">0</span> times added
+                    </div>
+            
+                    <div class="c3">
+                        <img src = "product5.png">
+                        <h3>2023 Numerology Forecast</h3>
+                        <p>$<span id="price5">24</span></p>
+                        <button class="add-to-cart-btn" onclick="increment();freq(5)" data-product-id="5">Add to Cart</button>
+                        <span id="frequency5">0</span> times added
+                    </div>
+                
+                    <div class="c3">
+                        <img src = "product6.png">
+                        <h3>Chinese Personality</h3>
+                        <p>$<span id="price6">10</span></p>
+                        <button class="add-to-cart-btn" onclick="increment();freq(6)" data-product-id="6">Add to Cart</button>
+                        <span id="frequency6">0</span> times added
+                    </div>
+                </div>
+            </div>
+
+            <div class="scontainer">
+                <div class="row">
+                    <div class="c3">
+                        <img src = "product7.png">
+                        <h3>Free Astrology Insight Report</h3>
+                        <p>$<span id="price7">0.00</span></p>
+                        <button class="add-to-cart-btn" onclick="increment();freq(7)" data-product-id="7">Add to Cart</button>
+                        <span id="frequency7">0</span> times added
+                    </div>
+            
+                    <div class="c3">
+                        <img src = "product8.png">
+                        <h3>12-Month Personal Transits</h3>
+                        <p>$<span id="price8">21</span></p>
+                        <button class="add-to-cart-btn" onclick="increment();freq(8)" data-product-id="8">Add to Cart</button>
+                        <span id="frequency8">0</span> times added
+                    </div>
+                
+                    <div class="c3">
+                        <img src = "product9.png">
+                        <h3>Yes/No Tarot</h3>
+                        <p>$<span id="price9">9</span></p>
+                        <button class="add-to-cart-btn" onclick="increment();freq(9)" data-product-id="9">Add to Cart</button>
+                        <span id="frequency9">0</span> times added
+                    </div>
+                </div>
+            </div>
+
+            <div class="scontainer">
+                <div class="row">
+                    <div class="c3">
+                        <img src = "product10.png">
+                        <h3>July Premium Horoscope</h3>
+                        <p>$<span id="price10">15</span></p>
+                        <button class="add-to-cart-btn" onclick="increment();freq(10)" data-product-id="10">Add to Cart</button>
+                        <span id="frequency10">0</span> times added
+                    </div>
+            
+                    <div class="c3">
+                        <img src = "product11.png">
+                        <h3>Birth Horoscope (+Natal Chart)</h3>
+                        <p>$<span id="price11">27</span></p>
+                        <button class="add-to-cart-btn" onclick="increment();freq(11)" data-product-id="11">Add to Cart</button>
+                        <span id="frequency11">0</span> times added
+                    </div>
+                
+                    <div class="c3">
+                        <img src = "product12.png">
+                        <h3>Full Buck Supermoon Report</h3>
+                        <p>$<span id="price12">14</span></p>
+                        <button class="add-to-cart-btn" onclick="increment();freq(12)" data-product-id="12">Add to Cart</button>
+                        <span id="frequency12">0</span> times added
+                    </div>
+                </div>
+            </div> 
+        
+        </div>
+        
+        </body>
+    
+    </html>

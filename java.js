@@ -37,7 +37,7 @@ function validcheck1() {
     const passwordInput = document.getElementById("pass0");
 
     const isNotEmptyUsername = usernameInput.value !== '';
-    const isNotEmptyPassword = passwordInput.value !== "" && /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/.test(passwordInput.value);
+    const isNotEmptyPassword = passwordInput.value !== "" && /^(?=.*[A-Z]).{8,}$/.test(passwordInput.value);
 
     if (!(isNotEmptyPassword && isNotEmptyUsername)) {
         window.alert("Invalid credentials for sign-in. Please check your username and password.");
